@@ -1,0 +1,32 @@
+[
+  {
+    "age": 19,
+    "gender": "male",
+    "emotion": "neutral",
+    "picture": "images/1713000315757.png"
+  },
+  {
+    "age": 16,
+    "gender": "male",
+    "emotion": "neutral",
+    "picture": "images/1713000325947.png"
+  },
+  {
+    "age": 18,
+    "gender": "male",
+    "emotion": "neutral",
+    "picture": "images/1713000400814.png"
+  },
+  {
+    "age": 18,
+    "gender": "male",
+    "emotion": "neutral",
+    "picture": "images/1713001081513.png"
+  },
+  {
+    "age": 18,
+    "gender": "male",
+    "emotion": "neutral",
+    "picture": "images/1713003161092.png"
+  }
+]

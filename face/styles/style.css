@@ -1,0 +1,89 @@
+html {
+  background: black;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .scan {
+    position: relative; 
+    z-index: 1;
+  }
+  canvas {
+    position: absolute;
+    z-index: 2;
+  }
+
+  #idCard {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #00ff00; 
+    border: 1px solid #00ff00; 
+    font-family: 'Courier New', monospace; 
+    padding: 20px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-left: 20px;
+    border-radius: 20px;
+  }
+  
+  #idCard h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #idCard p {
+    margin: 0 0 10px 0;
+  }
+  .body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+#Matrix{
+  z-index: 1 !important;
+}
+.video {
+  max-width: 480px; 
+  height: auto;
+  border-radius: 20px;
+}
+.vids{
+  display: flex;
+  flex-direction: column;
+}
+#start {
+  background-color: #00ff00; 
+  color: black; 
+  border: none; 
+  padding: 10px 20px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-family: 'Courier New', monospace; 
+  cursor: pointer; 
+  transition: all 0.5s;
+  margin-top: 10px;
+  border-radius: 20px; 
+}
+
+#start:hover {
+  background-color: black;
+  color: #00ff00;
+  box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00; 
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00; 
+}

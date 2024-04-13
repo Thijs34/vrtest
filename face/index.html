@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="body">
+  <div id="idCard" style="display: none;">
+    <h2>ID Card</h2>
+    <p id="age"></p>
+    <p id="gender"></p>
+    <p id="emotion"></p>
+  </div>
+  <canvas id="Matrix"></canvas>
+  <section class="scan">
+    <div class="vids">
+    <video id="video" class="video" width="460" height="550" autoplay muted></video>
+    <button id="start">Start</button>
+    <a href=" http://localhost:5173/"><button>VR</button></a>
+    </div>
+  </section>
+  <script src="scripts/matrix.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-landmarks-detection"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-expression-recognition"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/tiny-face-detector"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-recognition"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/age_gender_recognition"></script>
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+</body>
+</html>
